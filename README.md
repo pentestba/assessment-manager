@@ -9,23 +9,16 @@ Follow on Twitter [![Twitter Follow](https://img.shields.io/twitter/follow/disco
 ### Requirements
 * Install XAMPP (PHP 7.2.0): https://www.apachefriends.org/download.html
 
-### OS X Setup
+### windows Setup
 * Use XAMPP control panel to start MySQL and Apache.
-* cd /Applications/XAMPP/htdocs/
-* Change line 8 in index.php to ```header('Location: '.$uri.'/assessment-manager/src/php/index.php');```
+* cd C:\xampp\htdocs
 * git clone https://github.com/leebaird/assessment-manager.git
+* create database with phpmyadmin and name it amdb
+* import amdb.sql to your database
 
 ### Usage
 ```
-* cd assessment-manager/bin/
-* . ./setenv.sh osx
-
-* cd ../src/db/mysql/amdb/
-* ./access.sh setup
-* ./access.sh clear
-* ./access.sh load
-
-* Open Safari to localhost
+* Open localhost/assessment-manager/src/php/
 * Default account: admin
 * Default password: 1234!@#$qwerQWER
 ```
