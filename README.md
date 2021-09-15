@@ -12,7 +12,7 @@ Follow on Twitter [![Twitter Follow](https://img.shields.io/twitter/follow/disco
 ### windows Setup
 * Use XAMPP control panel to start MySQL and Apache.
 * cd C:\xampp\htdocs
-* git clone https://github.com/leebaird/assessment-manager.git
+* git clone https://github.com/pentestba/assessment-manager.git
 * create database with phpmyadmin and name it amdb
 * import amdb.sql to your database
 
